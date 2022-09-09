@@ -1,0 +1,13 @@
+item.contenttweaker.crafting_processor.name=Crafting Processor
+item.contenttweaker.raw_crafting_processor.name=Raw Crafting Processor
+item.contenttweaker.processor_base.name=Processor base
+item.contenttweaker.arcana_core.name=Arcana Core
+item.contenttweaker.eatable_diamond.name=Diamond
+item.contenttweaker.hl_crowbar.name=Gordon's Crowbar
+tile.contenttweaker.vaulterite_block.name=Walterite Block
+item.contenttweaker.vaulterite_ingot.name=Walterite Ingot
+tile.contenttweaker.vaulterite_ore.name=Walterite Ore
+item.contenttweaker.vaulterite_dust.name=Walterite Dust
+item.contenttweaker.eut_vault_alloy.name=Eutectic Walterite Alloy
+item.contenttweaker.gordonium.name=Gordonium
+fluid.vaulterite_molten=Molten Walterite
