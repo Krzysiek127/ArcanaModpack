@@ -1,0 +1,25 @@
+{
+	x: 3.0d,
+	y: -4.5d,
+	text: [
+		"Win stupid prizes"
+	],
+	dependencies: [
+		"4a3c46e8",
+		"b9b50015",
+		"30b006d1"
+	],
+	hide: true,
+	tasks: [{
+		uid: "03b1fe5f",
+		type: "item",
+		items: [{
+			item: "ironchest:iron_chest 1 7"
+		}]
+	}],
+	rewards: [{
+		uid: "0a9268b2",
+		type: "item",
+		item: "minecraft:dirt"
+	}]
+}

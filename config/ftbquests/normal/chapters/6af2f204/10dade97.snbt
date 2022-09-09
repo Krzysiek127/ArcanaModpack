@@ -1,0 +1,20 @@
+{
+	x: -6.5d,
+	y: 6.0d,
+	dependencies: [
+		"6a14e064"
+	],
+	tasks: [{
+		uid: "8d166a85",
+		type: "item",
+		items: [{
+			item: "opencomputers:card 1 12"
+		}]
+	}],
+	rewards: [{
+		uid: "0f287cc3",
+		type: "item",
+		item: "harvestcraft:cookiesandmilkitem",
+		count: 3
+	}]
+}

@@ -1,0 +1,19 @@
+{
+	title: "Super Milling",
+	x: -8.5d,
+	y: -6.5d,
+	description: "Make SAG Mill",
+	text: [
+		""
+	],
+	dependencies: [
+		"bf83aea2"
+	],
+	tasks: [{
+		uid: "231d16c6",
+		type: "item",
+		items: [{
+			item: "enderio:block_sag_mill"
+		}]
+	}]
+}

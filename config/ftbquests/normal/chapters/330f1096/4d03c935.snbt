@@ -1,0 +1,26 @@
+{
+	title: "Don't Breathe it in!",
+	x: -7.5d,
+	y: -4.5d,
+	description: "Make Glowstone Nano-Particles",
+	text: [
+		""
+	],
+	dependencies: [
+		"a7d81fe8",
+		"bf83aea2"
+	],
+	tasks: [{
+		uid: "8c7be700",
+		type: "item",
+		items: [{
+			item: "enderio:block_holier_fog"
+		}]
+	}],
+	rewards: [{
+		uid: "85084a35",
+		type: "item",
+		item: "minecraft:glowstone",
+		count: 10
+	}]
+}

@@ -1,0 +1,12 @@
+{
+	title: "Industrial Revolution",
+	icon: {
+		ForgeCaps: {
+			"astralsorcery:cap_item_amulet_holder": {}
+		},
+		id: "immersiveengineering:tool"
+	},
+	always_invisible: false,
+	group: 330139296,
+	default_quest_shape: ""
+}

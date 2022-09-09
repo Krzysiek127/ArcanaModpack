@@ -1,0 +1,39 @@
+{
+	title: "Rubik's cube",
+	icon: {
+		ForgeCaps: {
+			"astralsorcery:cap_item_amulet_holder": {}
+		},
+		id: "ftbquests:custom_icon",
+		tag: {
+			icon: "https://static.wikia.nocookie.net/fan-hardcore/images/4/41/Slider_Aether_Legacy.png/revision/latest/scale-to-width-down/300?cb=20190414235959"
+		}
+	},
+	x: 12.0d,
+	y: 2.0d,
+	text: [
+		"Slider, a cube-like creature is one of three bosses of aether.",
+		"Despite being chunky he can be rather fast, so beware! ",
+		"",
+		"To defeat him, one shall use a pickaxe"
+	],
+	dependencies: [
+		"6e996f72"
+	],
+	tasks: [{
+		uid: "15795b77",
+		type: "kill",
+		title: "Kill the slider of aether",
+		icon: {
+			ForgeCaps: {
+				"astralsorcery:cap_item_amulet_holder": {}
+			},
+			id: "ftbquests:custom_icon",
+			tag: {
+				icon: "https://static.wikia.nocookie.net/fan-hardcore/images/4/41/Slider_Aether_Legacy.png/revision/latest/scale-to-width-down/300?cb=20190414235959"
+			}
+		},
+		entity: "aether_legacy:slider",
+		value: 1L
+	}]
+}

@@ -1,0 +1,23 @@
+{
+	x: 1.5d,
+	y: 2.0d,
+	hide_dependency_lines: true,
+	dependencies: [
+		"264bdbed",
+		"ec3ffcd0"
+	],
+	tasks: [{
+		uid: "f4373470",
+		type: "checkmark",
+		title: "cum",
+		icon: {
+			ForgeCaps: {
+				"astralsorcery:cap_item_amulet_holder": {}
+			},
+			id: "ftbquests:custom_icon",
+			tag: {
+				icon: "minecraft:textures/blocks/cake_bottom.png"
+			}
+		}
+	}]
+}

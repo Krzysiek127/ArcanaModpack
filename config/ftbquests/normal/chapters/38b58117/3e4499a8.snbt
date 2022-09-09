@@ -1,0 +1,18 @@
+{
+	x: 4.5d,
+	y: -0.5d,
+	text: [
+		"Pro tip: you might want to use both hands"
+	],
+	dependencies: [
+		"14b79658"
+	],
+	tasks: [{
+		uid: "ad7549bf",
+		type: "item",
+		items: [{
+			item: "notreepunching:grass_fiber"
+		}],
+		count: 5L
+	}]
+}

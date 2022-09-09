@@ -1,0 +1,31 @@
+{
+	icon: "mekanism:ingot",
+	x: 7.5d,
+	y: -5.0d,
+	dependencies: [
+		"c1ae50df"
+	],
+	tasks: [{
+		uid: "6f5e6a65",
+		type: "item",
+		items: [{
+			item: "mekanism:ingot"
+		}],
+		count: 8L
+	},
+	{
+		uid: "2c9991b1",
+		type: "item",
+		items: [{
+			item: "mekanism:reinforcedalloy"
+		}],
+		count: 6L
+	}],
+	rewards: [{
+		uid: "202bc332",
+		type: "item",
+		item: "mekanism:atomicalloy",
+		count: 8,
+		random_bonus: 4
+	}]
+}

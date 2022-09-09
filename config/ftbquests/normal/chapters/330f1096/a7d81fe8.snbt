@@ -1,0 +1,20 @@
+{
+	title: "Simple Alloing",
+	x: -9.5d,
+	y: -3.5d,
+	description: "Make Simple Alloy Smelter",
+	text: [
+		""
+	],
+	dependencies: [
+		"acaa2e4d"
+	],
+	dependency_requirement: "one_started",
+	tasks: [{
+		uid: "b913765b",
+		type: "item",
+		items: [{
+			item: "enderio:block_simple_alloy_smelter"
+		}]
+	}]
+}

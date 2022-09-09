@@ -1,0 +1,26 @@
+{
+	title: "Infinite Journey (kind of.)",
+	x: -13.0d,
+	y: -4.0d,
+	description: "Make grains of infinity",
+	text: [
+		""
+	],
+	tasks: [{
+		uid: "7ccd5f17",
+		type: "item",
+		items: [{
+			item: "enderio:item_material 1 20"
+		}]
+	}],
+	rewards: [{
+		uid: "188fff32",
+		type: "item",
+		item: {
+			ForgeCaps: {
+				"astralsorcery:cap_item_amulet_holder": {}
+			},
+			id: "minecraft:flint_and_steel"
+		}
+	}]
+}

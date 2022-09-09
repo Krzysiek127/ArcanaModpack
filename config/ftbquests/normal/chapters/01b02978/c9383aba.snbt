@@ -1,0 +1,19 @@
+{
+	title: "Eagle has landed!",
+	icon: "galacticraftcore:basic_block_moon 1 3",
+	x: 8.0d,
+	y: -3.0d,
+	text: [
+		"Land on the Silver Globe"
+	],
+	dependencies: [
+		"37001295"
+	],
+	tasks: [{
+		uid: "7835ed01",
+		type: "dimension",
+		title: "Land on the moon",
+		icon: "galacticraftcore:basic_block_moon 1 4",
+		dim: -28
+	}]
+}

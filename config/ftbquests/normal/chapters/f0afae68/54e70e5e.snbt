@@ -1,0 +1,30 @@
+{
+	title: "Blast Furnace",
+	x: 6.5d,
+	y: 1.5d,
+	text: [
+		"Make a blast furnace out of those bricks"
+	],
+	dependencies: [
+		"adee8c27"
+	],
+	tasks: [{
+		uid: "624fcad6",
+		type: "item",
+		items: [{
+			item: "immersiveengineering:stone_decoration 1 1"
+		}],
+		count: 27L
+	}],
+	rewards: [{
+		uid: "92fe15fe",
+		type: "item",
+		item: "minecraft:hopper"
+	},
+	{
+		uid: "57386c33",
+		type: "item",
+		item: "harvestcraft:cherryjellysandwichitem",
+		random_bonus: 1
+	}]
+}

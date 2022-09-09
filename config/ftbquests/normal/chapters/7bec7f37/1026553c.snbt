@@ -1,0 +1,27 @@
+{
+	x: -1.0d,
+	y: -5.0d,
+	dependencies: [
+		"40b149c3"
+	],
+	tasks: [{
+		uid: "6e8943f6",
+		type: "item",
+		items: [{
+			item: "refinedstorage:upgrade 1 6"
+		}]
+	}],
+	rewards: [{
+		uid: "017c7a7d",
+		type: "item",
+		item: "harvestcraft:cookiesandmilkitem",
+		count: 2,
+		random_bonus: 3
+	},
+	{
+		uid: "3f6588e0",
+		type: "item",
+		item: "harvestcraft:strawberryjellysandwichitem",
+		count: 2
+	}]
+}

@@ -1,0 +1,19 @@
+{
+	title: "Ultra Milling",
+	x: -6.5d,
+	y: -7.0d,
+	description: "Make Enhanced SAG Mill",
+	text: [
+		""
+	],
+	dependencies: [
+		"038d9588"
+	],
+	tasks: [{
+		uid: "45413ac9",
+		type: "item",
+		items: [{
+			item: "enderio:block_enhanced_sag_mill"
+		}]
+	}]
+}

@@ -1,0 +1,18 @@
+{
+	title: "Nuclear Troubles",
+	icon: "nuclearcraft:depleted_fuel_californium 1 15",
+	always_invisible: false,
+	group: 330139296,
+	default_quest_shape: "",
+	images: [{
+		x: 0.0d,
+		y: 0.0d,
+		width: 15.0d,
+		height: 15.0d,
+		rotation: 0.0d,
+		image: "telthar:morbus.png",
+		hover: [],
+		click: "",
+		dev: false
+	}]
+}

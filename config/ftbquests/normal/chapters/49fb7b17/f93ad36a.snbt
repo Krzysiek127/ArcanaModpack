@@ -1,0 +1,18 @@
+{
+	x: -2.5d,
+	y: -9.0d,
+	text: [
+		"Hydra is a giant, dragon-like creature with three heads and can be found in her cave"
+	],
+	dependencies: [
+		"23a291e4"
+	],
+	tasks: [{
+		uid: "c7ccce06",
+		type: "kill",
+		title: "Hydrant",
+		icon: "twilightforest:trophy 1 2",
+		entity: "twilightforest:hydra",
+		value: 1L
+	}]
+}

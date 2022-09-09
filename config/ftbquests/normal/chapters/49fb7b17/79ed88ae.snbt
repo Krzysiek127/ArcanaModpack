@@ -1,0 +1,19 @@
+{
+	title: "Phantom Knights",
+	icon: "twilightforest:trophy 1 4",
+	x: 2.0d,
+	y: -7.0d,
+	text: [
+		"Summoned from tomb in dark forest stronghold, Phantom Knights are gonna be your foes"
+	],
+	dependencies: [
+		"1ceb79ab"
+	],
+	tasks: [{
+		uid: "157dc07d",
+		type: "kill",
+		icon: "twilightforest:trophy 1 4",
+		entity: "twilightforest:knight_phantom",
+		value: 1L
+	}]
+}

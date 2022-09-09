@@ -1,0 +1,19 @@
+{
+	title: "Women are from venus...",
+	icon: "galacticraftplanets:venus",
+	x: 17.0d,
+	y: -3.0d,
+	text: [
+		"Wait, why is it so empty here? There were more girls in aether than here!"
+	],
+	dependencies: [
+		"e1380099"
+	],
+	tasks: [{
+		uid: "5485c868",
+		type: "dimension",
+		title: "Land on the Venus",
+		icon: "galacticraftplanets:venus_rock_scorched",
+		dim: -31
+	}]
+}

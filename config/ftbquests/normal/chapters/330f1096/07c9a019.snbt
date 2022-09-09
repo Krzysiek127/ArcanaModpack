@@ -1,0 +1,70 @@
+{
+	title: "All Guillied Up",
+	x: -5.5d,
+	y: -2.5d,
+	description: "Make a set of dark steel armor",
+	text: [
+		""
+	],
+	dependencies: [
+		"f7499026"
+	],
+	tasks: [{
+		uid: "0812d3b0",
+		type: "item",
+		items: [{
+			ForgeCaps: {
+				"astralsorcery:cap_item_amulet_holder": {}
+			},
+			id: "enderio:item_dark_steel_chestplate",
+			tag: {}
+		}],
+		ignore_damage: true,
+		ignore_nbt: 1b
+	},
+	{
+		uid: "7529d508",
+		type: "item",
+		items: [{
+			ForgeCaps: {
+				"astralsorcery:cap_item_amulet_holder": {}
+			},
+			id: "enderio:item_dark_steel_leggings",
+			tag: {}
+		}],
+		ignore_damage: true,
+		ignore_nbt: 1b
+	},
+	{
+		uid: "57a7c0b1",
+		type: "item",
+		items: [{
+			ForgeCaps: {
+				"astralsorcery:cap_item_amulet_holder": {}
+			},
+			id: "enderio:item_dark_steel_boots",
+			tag: {}
+		}],
+		ignore_damage: true,
+		ignore_nbt: 1b
+	},
+	{
+		uid: "f40ae7ee",
+		type: "item",
+		items: [{
+			ForgeCaps: {
+				"astralsorcery:cap_item_amulet_holder": {}
+			},
+			id: "enderio:item_dark_steel_helmet",
+			tag: {}
+		}],
+		ignore_damage: true,
+		ignore_nbt: 1b
+	}],
+	rewards: [{
+		uid: "8ee47fe3",
+		type: "item",
+		item: "enderio:item_dark_steel_upgrade",
+		count: 4
+	}]
+}

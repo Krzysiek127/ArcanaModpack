@@ -1,0 +1,14 @@
+{
+	x: 8.5d,
+	y: 0.0d,
+	dependencies: [
+		"fd1a57f3"
+	],
+	tasks: [{
+		uid: "e10ad7c5",
+		type: "item",
+		items: [{
+			item: "thaumcraft:ingot 1 2"
+		}]
+	}]
+}

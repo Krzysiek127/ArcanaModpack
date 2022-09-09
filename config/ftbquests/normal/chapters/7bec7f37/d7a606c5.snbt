@@ -1,0 +1,42 @@
+{
+	icon: {
+		ForgeCaps: {
+			"astralsorcery:cap_item_amulet_holder": {}
+		},
+		id: "refinedstorage:controller",
+		tag: {
+			Energy: 32000
+		},
+		Damage: 1s
+	},
+	x: 0.0d,
+	y: 0.0d,
+	shape: "octagon",
+	text: [
+		"The brain of your RS system"
+	],
+	dependencies: [
+		"f9ae6757"
+	],
+	size: 1.75d,
+	tasks: [{
+		uid: "b16bcb64",
+		type: "item",
+		items: [{
+			ForgeCaps: {
+				"astralsorcery:cap_item_amulet_holder": {}
+			},
+			id: "refinedstorage:controller",
+			tag: {
+				Energy: 0
+			}
+		}],
+		ignore_nbt: 1b
+	}],
+	rewards: [{
+		uid: "2a4422eb",
+		type: "item",
+		item: "harvestcraft:orangejellysandwichitem",
+		random_bonus: 2
+	}]
+}

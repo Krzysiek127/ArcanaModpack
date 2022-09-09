@@ -1,0 +1,21 @@
+{
+	title: "Backery",
+	x: 18.5d,
+	y: -3.5d,
+	dependencies: [
+		"e08866d5"
+	],
+	tasks: [{
+		uid: "5f20ad50",
+		type: "item",
+		items: [{
+			item: "minecraft:bread"
+		}],
+		count: 16L
+	}],
+	rewards: [{
+		uid: "f89586ab",
+		type: "xp",
+		xp: 100
+	}]
+}

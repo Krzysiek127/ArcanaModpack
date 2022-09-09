@@ -1,0 +1,17 @@
+{
+	x: 2.0d,
+	y: -0.5d,
+	text: [
+		"Great help with searching for structures in Twilight world"
+	],
+	dependencies: [
+		"832a00de"
+	],
+	tasks: [{
+		uid: "3187d198",
+		type: "item",
+		items: [{
+			item: "twilightforest:magic_map_empty"
+		}]
+	}]
+}

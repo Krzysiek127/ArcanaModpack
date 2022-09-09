@@ -1,0 +1,36 @@
+{
+	title: "Juicy",
+	x: 13.0d,
+	y: -3.5d,
+	text: [
+		"Drinks are not only good for replenishing thirst but they also give you some food points"
+	],
+	dependencies: [
+		"e08866d5"
+	],
+	tasks: [{
+		uid: "f63039fb",
+		type: "item",
+		title: "Any juice",
+		items: [{
+			ForgeCaps: {
+				Parent: {
+					data: "listAlljuice",
+					id: "ore"
+				}
+			},
+			id: "itemfilters:filter",
+			tag: {
+				display: {
+					Name: "Any listAlljuice"
+				}
+			}
+		}],
+		count: 5L
+	}],
+	rewards: [{
+		uid: "a3f2a7da",
+		type: "xp",
+		xp: 100
+	}]
+}

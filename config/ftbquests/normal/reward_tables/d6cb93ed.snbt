@@ -1,0 +1,16 @@
+{
+	title: "Cakelie",
+	loot_size: 1,
+	rewards: [{
+		item: "harvestcraft:cheesecakeitem"
+	},
+	{
+		item: "harvestcraft:lamingtonitem"
+	},
+	{
+		item: "harvestcraft:redvelvetcakeitem"
+	},
+	{
+		item: "harvestcraft:pavlovacake"
+	}]
+}

@@ -1,0 +1,20 @@
+{
+	title: "Flinty shards",
+	icon: "notreepunching:flint_shard",
+	x: -0.5d,
+	y: -0.5d,
+	text: [
+		"Knap some flint on the stone to gather flint shards"
+	],
+	dependencies: [
+		"43471eb5"
+	],
+	tasks: [{
+		uid: "5d805497",
+		type: "item",
+		items: [{
+			item: "notreepunching:flint_shard"
+		}],
+		count: 10L
+	}]
+}

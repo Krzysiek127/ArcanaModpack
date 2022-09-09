@@ -1,0 +1,37 @@
+{
+	title: "The cake is a lie",
+	icon: "harvestcraft:redvelvetcakeitem",
+	x: 15.0d,
+	y: -4.5d,
+	shape: "pentagon",
+	text: [
+		"When life gives you cakes, don't make lemonade",
+		"Who in their right mind would make lemonade out of cakes?!",
+		"",
+		"~Cave Johnson, probably"
+	],
+	dependencies: [
+		"6c2348c2",
+		"b5b04b2a",
+		"c44bc33f",
+		"74d7fe40"
+	],
+	hide: true,
+	tasks: [{
+		uid: "9338cae9",
+		type: "checkmark",
+		title: "Click here for a reward!",
+		icon: {
+			ForgeCaps: {
+				"astralsorcery:cap_item_amulet_holder": {}
+			},
+			id: "minecraft:cake"
+		}
+	}],
+	rewards: [{
+		uid: "e74fbd58",
+		type: "choice",
+		icon: "harvestcraft:redvelvetcakeitem",
+		table: 0
+	}]
+}

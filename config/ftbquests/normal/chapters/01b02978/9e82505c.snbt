@@ -1,0 +1,19 @@
+{
+	x: 16.0d,
+	y: -4.5d,
+	dependencies: [
+		"b32ca540"
+	],
+	tasks: [{
+		uid: "98179264",
+		type: "kill",
+		icon: {
+			id: "openblocks:trophy",
+			tag: {
+				entity_id: "minecraft:spider"
+			}
+		},
+		entity: "galacticraftplanets:spider_queen",
+		value: 1L
+	}]
+}

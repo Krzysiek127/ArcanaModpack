@@ -1,0 +1,7 @@
+{
+	title: "The journey begins",
+	icon: "biomesoplenty:earth",
+	always_invisible: false,
+	group: -559879733,
+	default_quest_shape: ""
+}

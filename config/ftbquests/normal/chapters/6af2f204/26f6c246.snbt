@@ -1,0 +1,19 @@
+{
+	x: -7.5d,
+	y: 4.5d,
+	dependencies: [
+		"7af186c2"
+	],
+	tasks: [{
+		uid: "b9b75709",
+		type: "item",
+		items: [{
+			item: "opencomputers:storage 1 4"
+		}]
+	}],
+	rewards: [{
+		uid: "37c48fd8",
+		type: "xp",
+		xp: 25
+	}]
+}

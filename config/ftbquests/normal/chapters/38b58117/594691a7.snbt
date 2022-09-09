@@ -1,0 +1,20 @@
+{
+	title: "Spooky Scary Skeleton",
+	icon: "minecraft:nether_star",
+	x: 15.0d,
+	y: 5.0d,
+	text: [
+		"Ze Nederlanden have their boss, which Jij must terugvechten"
+	],
+	dependencies: [
+		"f3e4ad3c"
+	],
+	tasks: [{
+		uid: "0fc9fba1",
+		type: "kill",
+		title: "Kill the boss of the Dutch",
+		icon: "minecraft:skull 1 1",
+		entity: "minecraft:wither",
+		value: 1L
+	}]
+}

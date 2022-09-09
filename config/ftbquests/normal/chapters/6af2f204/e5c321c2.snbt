@@ -1,0 +1,19 @@
+{
+	x: -5.0d,
+	y: 1.5d,
+	dependencies: [
+		"7af186c2"
+	],
+	tasks: [{
+		uid: "a3c99fe3",
+		type: "item",
+		items: [{
+			item: "opencomputers:diskdrive"
+		}]
+	}],
+	rewards: [{
+		uid: "ac52b0fb",
+		type: "xp",
+		xp: 25
+	}]
+}

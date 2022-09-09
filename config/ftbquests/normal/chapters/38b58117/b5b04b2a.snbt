@@ -1,0 +1,32 @@
+{
+	x: 17.0d,
+	y: -3.5d,
+	dependencies: [
+		"e08866d5"
+	],
+	tasks: [{
+		uid: "74674ac6",
+		type: "item",
+		title: "Let's fish",
+		items: [{
+			ForgeCaps: {
+				Parent: {
+					data: "listAllfishcooked",
+					id: "ore"
+				}
+			},
+			id: "itemfilters:filter",
+			tag: {
+				display: {
+					Name: "Any listAllfishcooked"
+				}
+			}
+		}],
+		count: 16L
+	}],
+	rewards: [{
+		uid: "4c001390",
+		type: "xp",
+		xp: 100
+	}]
+}

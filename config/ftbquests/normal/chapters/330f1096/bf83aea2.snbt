@@ -1,0 +1,19 @@
+{
+	title: "Simple milling",
+	x: -9.5d,
+	y: -4.5d,
+	description: "Make Simple SAG Mill",
+	text: [
+		""
+	],
+	dependencies: [
+		"acaa2e4d"
+	],
+	tasks: [{
+		uid: "ac1f9593",
+		type: "item",
+		items: [{
+			item: "enderio:block_simple_sag_mill"
+		}]
+	}]
+}

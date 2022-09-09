@@ -1,0 +1,27 @@
+{
+	title: "Click me!",
+	x: -2.5d,
+	y: 2.0d,
+	text: [
+		"Hey, it's dangerous out there!",
+		"Take this compass with you"
+	],
+	size: 1.5d,
+	tasks: [{
+		uid: "a6603b6d",
+		type: "checkmark"
+	}],
+	rewards: [{
+		uid: "fac0ed65",
+		type: "xp_levels",
+		xp_levels: 1
+	},
+	{
+		uid: "fa965650",
+		type: "item",
+		item: {
+			id: "naturescompass:naturescompass",
+			tag: {}
+		}
+	}]
+}

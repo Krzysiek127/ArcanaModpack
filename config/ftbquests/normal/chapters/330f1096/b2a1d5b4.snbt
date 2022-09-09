@@ -1,0 +1,19 @@
+{
+	title: "Putting a soul into it",
+	x: -5.5d,
+	y: -3.5d,
+	description: "Make Soul Machine Chassis",
+	text: [
+		""
+	],
+	dependencies: [
+		"7c71a8c1"
+	],
+	tasks: [{
+		uid: "d2f8ed89",
+		type: "item",
+		items: [{
+			item: "enderio:item_material 1 53"
+		}]
+	}]
+}

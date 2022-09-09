@@ -1,0 +1,32 @@
+{
+	title: "The Forest",
+	x: 0.0d,
+	y: 0.0d,
+	text: [
+		"As the lone survivor of a passenger jet crash, you find yourself in a mysterious forest battling to stay alive against a society of cannibalistic mutants.",
+		"",
+		"Wait a minute.. I think I've got the games wrong"
+	],
+	size: 1.5d,
+	tasks: [{
+		uid: "ad77de9e",
+		type: "dimension",
+		title: "Visit the twilight",
+		icon: "twilightforest:miniature_structure",
+		dim: 7
+	}],
+	rewards: [{
+		uid: "f92f3529",
+		type: "item",
+		item: {
+			ForgeCaps: {
+				"astralsorcery:cap_item_amulet_holder": {}
+			},
+			id: "patchouli:guide_book",
+			tag: {
+				"patchouli:book": "twilightforest:guide"
+			}
+		},
+		only_one: true
+	}]
+}

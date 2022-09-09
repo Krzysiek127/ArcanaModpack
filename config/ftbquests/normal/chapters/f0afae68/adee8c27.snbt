@@ -1,0 +1,47 @@
+{
+	title: "Coke Oven",
+	icon: "immersiveengineering:stone_decoration",
+	x: 3.0d,
+	y: 1.5d,
+	text: [
+		"Build a coke oven out of 27 coke bricks and make some coke coal and creosote"
+	],
+	dependencies: [
+		"649d35a5"
+	],
+	tasks: [{
+		uid: "7cc0c526",
+		type: "item",
+		items: [{
+			item: "immersiveengineering:stone_decoration 1 3"
+		}]
+	},
+	{
+		uid: "a9987f1a",
+		type: "item",
+		items: [{
+			ForgeCaps: {
+				"astralsorcery:cap_item_amulet_holder": {}
+			},
+			id: "forge:bucketfilled",
+			tag: {
+				FluidName: "creosote",
+				Amount: 1000
+			}
+		}],
+		ignore_damage: true,
+		ignore_nbt: 1b
+	}],
+	rewards: [{
+		uid: "b420e357",
+		type: "item",
+		item: "immersiveengineering:metal 1 8",
+		count: 4,
+		random_bonus: 4
+	},
+	{
+		uid: "8ce15ddb",
+		type: "xp",
+		xp: 25
+	}]
+}

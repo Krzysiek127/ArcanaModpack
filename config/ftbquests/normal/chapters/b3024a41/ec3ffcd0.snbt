@@ -1,0 +1,13 @@
+{
+	title: "We gonna build houses with it!",
+	x: -1.5d,
+	y: 2.0d,
+	tasks: [{
+		uid: "05615c10",
+		type: "item",
+		items: [{
+			item: "nuclearcraft:fertile_isotope 1 6"
+		}],
+		count: 144L
+	}]
+}

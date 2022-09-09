@@ -1,0 +1,19 @@
+{
+	x: -7.5d,
+	y: 3.0d,
+	dependencies: [
+		"7af186c2"
+	],
+	tasks: [{
+		uid: "539bc42f",
+		type: "item",
+		items: [{
+			item: "opencomputers:rack"
+		}]
+	}],
+	rewards: [{
+		uid: "25837b34",
+		type: "xp",
+		xp: 25
+	}]
+}

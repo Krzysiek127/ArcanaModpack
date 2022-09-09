@@ -1,0 +1,75 @@
+{
+	title: "Ender Gladiator",
+	x: -2.5d,
+	y: -1.0d,
+	description: "Make a set of Ender armor",
+	text: [
+		""
+	],
+	dependencies: [
+		"f83bf001"
+	],
+	tasks: [{
+		uid: "2ca294f5",
+		type: "item",
+		items: [{
+			ForgeCaps: {
+				"astralsorcery:cap_item_amulet_holder": {}
+			},
+			id: "enderio:item_end_steel_chestplate",
+			tag: {}
+		}],
+		ignore_damage: true,
+		ignore_nbt: 1b
+	},
+	{
+		uid: "a40d697b",
+		type: "item",
+		items: [{
+			ForgeCaps: {
+				"astralsorcery:cap_item_amulet_holder": {}
+			},
+			id: "enderio:item_end_steel_leggings",
+			tag: {}
+		}],
+		ignore_damage: true,
+		ignore_nbt: 1b
+	},
+	{
+		uid: "468a94c7",
+		type: "item",
+		items: [{
+			ForgeCaps: {
+				"astralsorcery:cap_item_amulet_holder": {}
+			},
+			id: "enderio:item_end_steel_boots",
+			tag: {}
+		}],
+		ignore_damage: true,
+		ignore_nbt: 1b
+	},
+	{
+		uid: "343b33b6",
+		type: "item",
+		items: [{
+			ForgeCaps: {
+				"astralsorcery:cap_item_amulet_holder": {}
+			},
+			id: "enderio:item_end_steel_helmet",
+			tag: {}
+		}],
+		ignore_damage: true,
+		ignore_nbt: 1b
+	}],
+	rewards: [{
+		uid: "aa6310bf",
+		type: "item",
+		item: "enderio:item_dark_steel_upgrade",
+		count: 4
+	},
+	{
+		uid: "2beaacea",
+		type: "xp",
+		xp: 1000
+	}]
+}

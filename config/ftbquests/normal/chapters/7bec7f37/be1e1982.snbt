@@ -1,0 +1,42 @@
+{
+	x: 1.0d,
+	y: -5.0d,
+	dependencies: [
+		"40b149c3"
+	],
+	or_tasks: true,
+	tasks: [{
+		uid: "0abaeb75",
+		type: "item",
+		items: [{
+			item: "refinedstorage:upgrade 1 7"
+		}]
+	},
+	{
+		uid: "899cc243",
+		type: "item",
+		items: [{
+			item: "refinedstorage:upgrade 1 8"
+		}]
+	},
+	{
+		uid: "3cf719c4",
+		type: "item",
+		items: [{
+			item: "refinedstorage:upgrade 1 9"
+		}]
+	}],
+	rewards: [{
+		uid: "dae9574a",
+		type: "item",
+		item: "harvestcraft:cookiesandmilkitem",
+		count: 2,
+		random_bonus: 3
+	},
+	{
+		uid: "a2ff1299",
+		type: "item",
+		item: "harvestcraft:strawberryjellysandwichitem",
+		count: 2
+	}]
+}

@@ -1,0 +1,20 @@
+{
+	x: 5.0d,
+	y: -5.0d,
+	dependencies: [
+		"3f4bcbd5"
+	],
+	tasks: [{
+		uid: "a532b8b2",
+		type: "item",
+		items: [{
+			ForgeCaps: {
+				"astralsorcery:cap_item_amulet_holder": {}
+			},
+			id: "mekanism:jetpack",
+			tag: {}
+		}],
+		ignore_damage: true,
+		ignore_nbt: 1b
+	}]
+}

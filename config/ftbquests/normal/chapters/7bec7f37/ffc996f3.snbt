@@ -1,0 +1,25 @@
+{
+	x: -4.2d,
+	y: 0.0d,
+	shape: "hexagon",
+	size: 1.2d,
+	tasks: [{
+		uid: "3032c281",
+		type: "item",
+		items: [{
+			item: "refinedstorage:processor_binding"
+		}]
+	}],
+	rewards: [{
+		uid: "ec775b7a",
+		type: "xp",
+		xp: 10
+	},
+	{
+		uid: "8e3e4bc0",
+		type: "item",
+		item: "projectred-core:resource_item 1 103",
+		count: 2,
+		random_bonus: 4
+	}]
+}

@@ -1,0 +1,9 @@
+{
+  "inventory": {
+    "0:6": "harvestcraft:strawberryjuiceitem,4",
+    "0:0": "ftbquests:book",
+    "0:7": "minecraft:cooked_fish,6",
+    "0:8": "minecraft:torch,12",
+    "0:1": "blue_skies:blue_lore"
+  }
+}

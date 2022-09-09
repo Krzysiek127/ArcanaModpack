@@ -1,0 +1,173 @@
+{
+    "images":
+    {
+        "title":
+        {
+            "image" : "custommainmenu:textures/gui/minecraft.png",
+            "posX" : -137,
+            "posY" : 30,
+            "width" : 512,
+            "height" : 512,
+            "alignment" : "top_center"
+        },
+        
+        "edition":
+        {
+			"image": "telthar:AI_logo.png",
+            "posX" : -85,
+            "posY" : 60,
+            "width" : 185,
+            "height" : 26,
+            "alignment" : "top_center"
+        }
+    },
+    
+    "buttons":
+    {
+        "singleplayer":
+        {
+            "text" : "menu.singleplayer",
+            "posX" : -420,
+            "posY" : -30,
+            "width" : 120,
+            "height" : 20,
+            "action" : 
+            {
+                "type" : "openGui",
+                "gui" : "singleplayer"
+            }
+        },
+        
+        "multiplayer":
+        {
+            "text" : "menu.multiplayer",
+            "posX" : -420,
+            "posY" : 0,
+            "width" : 120,
+            "height" : 20,
+            "action" : 
+            {
+                "type" : "openGui",
+                "gui" : "multiplayer"
+            }
+        },
+        
+        "mods":
+        {
+            "text" : "fml.menu.mods",
+            "posX" : -420,
+            "posY" : 30,
+            "width" : 120,
+            "height" : 20,
+            "action" : 
+            {
+                "type" : "openGui",
+                "gui" : "mods"
+            }
+        },
+            
+        "options":
+        {
+            "text" : "menu.options",
+            "posX" : -420,
+            "posY" : 60,
+            "width" : 120,
+            "height" : 20,
+            "action" : 
+            {
+                "type" : "openGui",
+                "gui" : "options"
+            }
+        },
+        
+        "quit":
+        {
+            "text" : "menu.quit",
+            "posX" : -420,
+            "posY" : 152,
+            "width" : 120,
+            "height" : 20,
+            "action" : 
+            {
+                "type" : "quit"
+            }
+        },
+        
+        "language":
+        {
+            "text" : "",
+            "posX" : -420,
+            "posY" : 90,
+            "width" : 20,
+            "height" : 20,
+            "action" : 
+            {
+                "type" : "openGui",
+                "gui" : "languages"
+            }
+        },
+        
+        "refresh":
+        {
+            "text" : "",
+            "posX" : -320,
+            "posY" : 90,
+            "width" : 20,
+            "height" : 20,
+            "texture" : "custommainmenu:textures/gui/buttons.png",
+            "action" : 
+            {
+                "type" : "refresh"
+            }
+        }
+    },
+    
+    "labels":
+    {
+        "mojang":
+        {
+            "text" : "Copyright Mojang AB. Do not distribute!\nModpack made by Telthar, Kopyrman",
+            "hoverText" : "�nCopyright Mojang AB. Do not distribute!\nModpack made by Telthar, Kopyrman",
+            "posX" : -197,
+            "posY" : -20,
+            "color" : -1,
+            "alignment" : "bottom_right",
+            "action" : 
+            {
+                "type" : "openGui",
+                "gui" : "credits"
+            }
+        },
+        
+        "fml":
+        {
+            "text" : "",
+            "posX" : 2,
+            "posY" : -50,
+            "color" : -1,
+            "alignment" : "bottom_left"
+        }
+    },
+    
+    "other":
+    {
+        "splash-text":
+        {
+            "posX" : 140,
+            "posY" : 80,
+            "color" : -256,
+            "alignment" : "top_center",
+            "texts" : "file:minecraft:texts/splashes.txt"
+        },
+		"background":
+		{
+			"image": "",
+			"slideshow":
+			{
+				"images" : ["telthar:slideshow1.png", "telthar:slideshow2.png", "telthar:slideshow3.png", "telthar:slideshow4.png", "telthar:bq_moon.png", "telthar:slideshow5.png", "telthar:slideshow6.png", "telthar:bq_twilight.png", "telthar:gm/chernobill_gary_mod.jpg", "telthar:gm/glassesman_metrocop_in_tunnel.jpg", "telthar:gm/hiddenwave8d_noshpa_gmod_workshop.png", "telthar:gm/intruso_orangebox_race.jpg", "telthar:gm/lukaswbrr_one_new_universe.png", "telthar:gm/piggo_flight_of_the_construct.jpg", "telthar:gm/shut_up_bofreemian_rhapsody.jpg", "telthar:gm/pajtajster_gwick.jpg"],
+                "displayDuration" : 100,
+                "fadeDuration" : 40
+			}
+        }
+    }
+}

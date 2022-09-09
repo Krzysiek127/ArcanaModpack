@@ -1,0 +1,25 @@
+{
+	x: 11.5d,
+	y: -3.5d,
+	text: [
+		"Veggie strips are good source of vegetable food points",
+		"",
+		"Made from 3x vegetable, salt, and any spice"
+	],
+	dependencies: [
+		"e08866d5"
+	],
+	tasks: [{
+		uid: "5d70922c",
+		type: "item",
+		items: [{
+			item: "harvestcraft:veggiestripsitem"
+		}],
+		count: 16L
+	}],
+	rewards: [{
+		uid: "1c93fa48",
+		type: "xp",
+		xp: 100
+	}]
+}

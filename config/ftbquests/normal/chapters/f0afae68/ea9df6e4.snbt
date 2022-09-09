@@ -1,0 +1,70 @@
+{
+	title: "Dieses Generator",
+	x: 8.5d,
+	y: -4.0d,
+	dependencies: [
+		"f9bf1874"
+	],
+	tasks: [{
+		uid: "a88b2202",
+		type: "item",
+		items: [{
+			item: "immersiveengineering:metal_decoration1 1 1"
+		}],
+		count: 6L
+	},
+	{
+		uid: "db1433b6",
+		type: "item",
+		items: [{
+			item: "immersiveengineering:metal_device1 1 6"
+		}],
+		count: 5L
+	},
+	{
+		uid: "f2d75e3a",
+		type: "item",
+		items: [{
+			item: "immersiveengineering:metal_decoration0 1 3"
+		}]
+	},
+	{
+		uid: "5ba87f9c",
+		type: "item",
+		items: [{
+			item: "immersiveengineering:metal_decoration0 1 5"
+		}],
+		count: 13L
+	},
+	{
+		uid: "d4b53727",
+		type: "item",
+		items: [{
+			item: "immersiveengineering:metal_decoration0 1 6"
+		}],
+		count: 4L
+	},
+	{
+		uid: "128be8a3",
+		type: "item",
+		items: [{
+			item: "immersiveengineering:metal_decoration0 1 7"
+		}],
+		count: 9L
+	},
+	{
+		uid: "d8ccd1b8",
+		type: "item",
+		items: [{
+			ForgeCaps: {
+				"astralsorcery:cap_item_amulet_holder": {}
+			},
+			id: "immersivepetroleum:schematic",
+			tag: {
+				multiblock: "IE:DieselGenerator"
+			}
+		}],
+		ignore_damage: true,
+		ignore_nbt: 1b
+	}]
+}

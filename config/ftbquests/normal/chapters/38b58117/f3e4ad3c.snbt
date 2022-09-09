@@ -1,0 +1,32 @@
+{
+	title: "Netherlands",
+	icon: "minecraft:netherrack",
+	x: 15.0d,
+	y: 3.5d,
+	text: [
+		"I don't remember Netherlands looking like a hell"
+	],
+	dependencies: [
+		"8e988863"
+	],
+	tasks: [{
+		uid: "120139eb",
+		type: "dimension",
+		dim: -1
+	}],
+	rewards: [{
+		uid: "ee23713d",
+		type: "item",
+		item: {
+			id: "minecraft:potion",
+			tag: {
+				Potion: "minecraft:fire_resistance"
+			}
+		}
+	},
+	{
+		uid: "fd64e445",
+		type: "xp",
+		xp: 50
+	}]
+}

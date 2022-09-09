@@ -1,0 +1,51 @@
+{
+	title: "Not the flux kind",
+	x: -13.0d,
+	y: -2.5d,
+	description: "Make all capacitors",
+	text: [
+		""
+	],
+	dependencies: [
+		"aef34c74"
+	],
+	tasks: [{
+		uid: "547ef5ce",
+		type: "item",
+		items: [{
+			item: "enderio:item_basic_capacitor"
+		}]
+	},
+	{
+		uid: "3bbae984",
+		type: "item",
+		items: [{
+			item: "enderio:item_basic_capacitor 1 1"
+		}]
+	},
+	{
+		uid: "928e83a0",
+		type: "item",
+		items: [{
+			item: "enderio:item_basic_capacitor 1 2"
+		}]
+	}],
+	rewards: [{
+		uid: "a2dc0ad0",
+		type: "item",
+		item: "enderio:item_alloy_ingot 1 5",
+		count: 5
+	},
+	{
+		uid: "da9b3f6e",
+		type: "item",
+		item: "enderio:item_alloy_ingot 1 1",
+		count: 5
+	},
+	{
+		uid: "e780a655",
+		type: "item",
+		item: "enderio:item_alloy_ingot 1 2",
+		count: 5
+	}]
+}

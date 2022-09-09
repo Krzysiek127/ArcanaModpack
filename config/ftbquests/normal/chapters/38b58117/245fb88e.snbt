@@ -1,0 +1,31 @@
+{
+	title: "Valkyrie Queen",
+	icon: {
+		ForgeCaps: {
+			"astralsorcery:cap_item_amulet_holder": {}
+		},
+		id: "aether_legacy:valkyrie_cape"
+	},
+	x: 10.5d,
+	y: 3.5d,
+	text: [
+		"Valkyries are the hosts of deceased Nordic soldiers.",
+		"Being a mortal, you decide to fight them, but you must beware they're one of the best fighters in heavens"
+	],
+	dependencies: [
+		"6e996f72"
+	],
+	tasks: [{
+		uid: "4ac5b8f7",
+		type: "kill",
+		title: "Kill the Queen of Valkyries",
+		icon: {
+			ForgeCaps: {
+				"astralsorcery:cap_item_amulet_holder": {}
+			},
+			id: "aether_legacy:valkyrie_cape"
+		},
+		entity: "aether_legacy:valkyrie_queen",
+		value: 1L
+	}]
+}

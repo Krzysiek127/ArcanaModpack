@@ -1,0 +1,19 @@
+{
+	title: "The binding of souls",
+	x: -4.0d,
+	y: -5.0d,
+	description: "Make Soul Binder",
+	text: [
+		""
+	],
+	dependencies: [
+		"b2a1d5b4"
+	],
+	tasks: [{
+		uid: "4b2a1751",
+		type: "item",
+		items: [{
+			item: "enderio:block_soul_binder"
+		}]
+	}]
+}

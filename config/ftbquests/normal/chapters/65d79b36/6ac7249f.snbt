@@ -1,0 +1,24 @@
+{
+	x: 12.0d,
+	y: 3.0d,
+	dependencies: [
+		"ecfe55e8"
+	],
+	tasks: [{
+		uid: "d8675f32",
+		type: "item",
+		items: [{
+			ForgeCaps: {
+				"astralsorcery:cap_item_amulet_holder": {}
+			},
+			id: "mekanism:atomicdisassembler",
+			tag: {
+				mekData: {
+					energyStored: 1000000.0d
+				}
+			}
+		}],
+		ignore_damage: true,
+		ignore_nbt: 1b
+	}]
+}

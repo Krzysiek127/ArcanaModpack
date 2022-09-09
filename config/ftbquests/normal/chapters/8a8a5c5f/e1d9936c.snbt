@@ -1,0 +1,31 @@
+{
+	x: 0.0d,
+	y: 0.0d,
+	text: [
+		"Nie chce mi sie juz questow wymyslac"
+	],
+	tasks: [{
+		uid: "b61d53d0",
+		type: "item",
+		items: [{
+			id: "storagedrawers:basicdrawers",
+			tag: {
+				material: "oak"
+			},
+			Damage: 2s
+		}],
+		count: 144L
+	}],
+	rewards: [{
+		uid: "6abb5d8d",
+		type: "xp_levels",
+		xp_levels: 4
+	},
+	{
+		uid: "034bcd16",
+		type: "item",
+		item: "harvestcraft:raspberryjellysandwichitem",
+		count: 2,
+		random_bonus: 4
+	}]
+}

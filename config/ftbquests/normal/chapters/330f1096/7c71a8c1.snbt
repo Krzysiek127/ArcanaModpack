@@ -1,0 +1,19 @@
+{
+	title: "industrialization",
+	x: -7.5d,
+	y: -3.5d,
+	description: "Make Industrial Chassis",
+	text: [
+		""
+	],
+	dependencies: [
+		"a7d81fe8"
+	],
+	tasks: [{
+		uid: "71a1c8ef",
+		type: "item",
+		items: [{
+			item: "enderio:item_material 1 1"
+		}]
+	}]
+}

@@ -1,0 +1,20 @@
+{
+	title: "Naga slayer",
+	icon: "twilightforest:trophy",
+	x: 0.0d,
+	y: -2.0d,
+	text: [
+		"Fight with the first boss of twilight - a giant snake like creature called Naga living in her maze"
+	],
+	dependencies: [
+		"832a00de"
+	],
+	tasks: [{
+		uid: "8bdd928d",
+		type: "kill",
+		title: "Naga",
+		icon: "twilightforest:trophy",
+		entity: "twilightforest:naga",
+		value: 1L
+	}]
+}

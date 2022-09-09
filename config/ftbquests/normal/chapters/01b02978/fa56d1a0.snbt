@@ -1,0 +1,15 @@
+{
+	title: "Haley's comet",
+	x: 17.0d,
+	y: 2.0d,
+	dependencies: [
+		"e1380099"
+	],
+	tasks: [{
+		uid: "2781c457",
+		type: "dimension",
+		title: "Land on the asteroids",
+		icon: "galacticraftplanets:asteroids_block",
+		dim: -30
+	}]
+}

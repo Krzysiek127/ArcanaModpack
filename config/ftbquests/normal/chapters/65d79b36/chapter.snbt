@@ -1,0 +1,16 @@
+{
+	title: "Mekanisation",
+	icon: {
+		ForgeCaps: {
+			"astralsorcery:cap_item_amulet_holder": {}
+		},
+		id: "mekanism:machineblock",
+		tag: {
+			recipeType: 0
+		},
+		Damage: 5s
+	},
+	always_invisible: false,
+	group: 330139296,
+	default_quest_shape: ""
+}

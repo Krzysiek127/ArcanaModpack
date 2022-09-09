@@ -1,0 +1,7 @@
+{
+	title: "Ender Reflux",
+	icon: "enderio:item_basic_capacitor 1 2",
+	always_invisible: false,
+	group: 330139296,
+	default_quest_shape: ""
+}

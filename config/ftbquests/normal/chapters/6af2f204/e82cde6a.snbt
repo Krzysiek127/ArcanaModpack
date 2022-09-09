@@ -1,0 +1,25 @@
+{
+	x: -2.5d,
+	y: 4.5d,
+	dependencies: [
+		"8e84c84b"
+	],
+	tasks: [{
+		uid: "950da8b2",
+		type: "item",
+		items: [{
+			item: "opencomputers:hologram2"
+		}]
+	}],
+	rewards: [{
+		uid: "ad0bd877",
+		type: "xp",
+		xp: 25
+	},
+	{
+		uid: "24ad2db3",
+		type: "item",
+		item: "harvestcraft:cookiesandmilkitem",
+		count: 3
+	}]
+}

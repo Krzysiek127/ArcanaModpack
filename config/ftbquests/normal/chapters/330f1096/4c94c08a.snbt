@@ -1,0 +1,24 @@
+{
+	title: "ENHANCE!!",
+	x: -3.5d,
+	y: -3.5d,
+	description: "Make Enhanced Machine Chassis",
+	text: [
+		""
+	],
+	dependencies: [
+		"b2a1d5b4"
+	],
+	tasks: [{
+		uid: "40feb0b7",
+		type: "item",
+		items: [{
+			item: "enderio:item_material 1 54"
+		}]
+	}],
+	rewards: [{
+		uid: "8e807ced",
+		type: "xp",
+		xp: 1000
+	}]
+}

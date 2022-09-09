@@ -1,0 +1,22 @@
+{
+	x: 7.5d,
+	y: -0.5d,
+	text: [
+		"Your first axe"
+	],
+	dependencies: [
+		"3e4499a8"
+	],
+	tasks: [{
+		uid: "cfe2545e",
+		type: "item",
+		items: [{
+			ForgeCaps: {
+				"astralsorcery:cap_item_amulet_holder": {}
+			},
+			id: "notreepunching:axe/flint"
+		}],
+		ignore_damage: true,
+		ignore_nbt: 1b
+	}]
+}

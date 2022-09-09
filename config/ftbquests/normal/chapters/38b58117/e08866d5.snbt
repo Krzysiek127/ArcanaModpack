@@ -1,0 +1,24 @@
+{
+	title: "Agriculture",
+	x: 15.0d,
+	y: -2.5d,
+	text: [
+		"You're gonna need to gather food before winter",
+		"Better start early in spring and summer"
+	],
+	dependencies: [
+		"528845c0"
+	],
+	tasks: [{
+		uid: "bfcd3a36",
+		type: "item",
+		items: [{
+			ForgeCaps: {
+				"astralsorcery:cap_item_amulet_holder": {}
+			},
+			id: "minecraft:iron_hoe"
+		}],
+		ignore_damage: true,
+		ignore_nbt: 1b
+	}]
+}

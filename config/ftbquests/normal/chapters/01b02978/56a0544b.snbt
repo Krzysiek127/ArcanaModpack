@@ -1,0 +1,14 @@
+{
+	x: 5.0d,
+	y: 0.0d,
+	dependencies: [
+		"555b35b0"
+	],
+	tasks: [{
+		uid: "feb48c3f",
+		type: "item",
+		items: [{
+			item: "galacticraftcore:rocket_workbench"
+		}]
+	}]
+}

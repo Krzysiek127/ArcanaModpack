@@ -1,0 +1,19 @@
+{
+	x: 11.0d,
+	y: -2.5d,
+	dependencies: [
+		"96cb5a0c"
+	],
+	tasks: [{
+		uid: "207c2189",
+		type: "item",
+		items: [{
+			item: "alternatingflux:wirecoil"
+		}]
+	}],
+	rewards: [{
+		uid: "e2ae20ab",
+		type: "xp",
+		xp: 20
+	}]
+}

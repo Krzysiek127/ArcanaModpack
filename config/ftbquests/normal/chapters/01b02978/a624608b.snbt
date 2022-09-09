@@ -1,0 +1,19 @@
+{
+	x: 4.0d,
+	y: 4.5d,
+	dependencies: [
+		"abfdc9d3"
+	],
+	tasks: [{
+		uid: "2838a543",
+		type: "item",
+		items: [{
+			ForgeCaps: {
+				"astralsorcery:cap_item_amulet_holder": {}
+			},
+			id: "galacticraftcore:oxygen_tank_heavy_full"
+		}],
+		ignore_damage: true,
+		ignore_nbt: 1b
+	}]
+}

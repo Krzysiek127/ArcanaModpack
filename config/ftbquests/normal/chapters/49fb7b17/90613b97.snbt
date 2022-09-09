@@ -1,0 +1,20 @@
+{
+	title: "Queen of the Winter",
+	icon: "twilightforest:trophy 1 5",
+	x: 0.0d,
+	y: -9.0d,
+	text: [
+		"Fight with a cold queen atop her neon castle"
+	],
+	dependencies: [
+		"a147ab02"
+	],
+	tasks: [{
+		uid: "0826067d",
+		type: "kill",
+		title: "Snow Queen",
+		icon: "twilightforest:trophy 1 5",
+		entity: "twilightforest:snow_queen",
+		value: 1L
+	}]
+}

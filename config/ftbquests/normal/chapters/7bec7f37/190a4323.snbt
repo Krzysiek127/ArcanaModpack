@@ -1,0 +1,19 @@
+{
+	x: 3.0d,
+	y: 4.0d,
+	dependencies: [
+		"19dcf909"
+	],
+	tasks: [{
+		uid: "91ecbfcb",
+		type: "item",
+		items: [{
+			item: "refinedstorage:grid 1 2"
+		}]
+	}],
+	rewards: [{
+		uid: "d842613f",
+		type: "xp",
+		xp: 10
+	}]
+}

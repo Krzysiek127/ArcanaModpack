@@ -1,0 +1,15 @@
+{
+	title: "Evolved Skeleton",
+	x: 7.0d,
+	y: -4.5d,
+	dependencies: [
+		"c9383aba"
+	],
+	tasks: [{
+		uid: "48fa76ee",
+		type: "kill",
+		icon: "minecraft:skull 1 1",
+		entity: "galacticraftcore:evolved_skeleton_boss",
+		value: 1L
+	}]
+}

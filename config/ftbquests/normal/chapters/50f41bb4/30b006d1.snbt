@@ -1,0 +1,21 @@
+{
+	x: 0.5d,
+	y: -3.0d,
+	dependencies: [
+		"37a42b55"
+	],
+	tasks: [{
+		uid: "3e936a9c",
+		type: "item",
+		items: [{
+			item: "ironchest:iron_chest 1 5"
+		}]
+	}],
+	rewards: [{
+		uid: "6ff6641f",
+		type: "item",
+		item: "harvestcraft:cookiesandmilkitem",
+		count: 5,
+		random_bonus: 3
+	}]
+}

@@ -1,0 +1,29 @@
+{
+	title: "Because why not?",
+	x: -14.5d,
+	y: -4.0d,
+	description: "Make Double Compressed Infinity Dust Block",
+	text: [
+		""
+	],
+	dependencies: [
+		"aef34c74"
+	],
+	tasks: [{
+		uid: "4897ca89",
+		type: "item",
+		items: [{
+			item: "enderio:block_infinity 1 2"
+		}]
+	}],
+	rewards: [{
+		uid: "7701b305",
+		type: "item",
+		item: "enderio:block_infinity"
+	},
+	{
+		uid: "557679c2",
+		type: "item",
+		item: "enderio:block_infinity_fog"
+	}]
+}

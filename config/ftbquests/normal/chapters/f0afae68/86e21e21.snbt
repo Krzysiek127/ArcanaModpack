@@ -1,0 +1,18 @@
+{
+	x: -4.0d,
+	y: 1.5d,
+	text: [
+		"Make atleast half a stack of electric lanterns to light up your base"
+	],
+	dependencies: [
+		"649d35a5"
+	],
+	tasks: [{
+		uid: "85e83f88",
+		type: "item",
+		items: [{
+			item: "immersiveengineering:metal_device1 1 4"
+		}],
+		count: 32L
+	}]
+}

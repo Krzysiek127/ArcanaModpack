@@ -1,0 +1,24 @@
+{
+	title: "God amongst men...",
+	x: -2.0d,
+	y: -5.0d,
+	description: "Make Weather Obelisk",
+	text: [
+		""
+	],
+	dependencies: [
+		"110b7619"
+	],
+	tasks: [{
+		uid: "d0f48065",
+		type: "item",
+		items: [{
+			item: "enderio:block_weather_obelisk"
+		}]
+	}],
+	rewards: [{
+		uid: "bc6a0823",
+		type: "xp",
+		xp: 1000
+	}]
+}

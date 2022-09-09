@@ -1,0 +1,19 @@
+{
+	x: 5.0d,
+	y: 0.0d,
+	dependencies: [
+		"fff698f0"
+	],
+	tasks: [{
+		uid: "4bf96bac",
+		type: "item",
+		items: [{
+			ForgeCaps: {
+				"astralsorcery:cap_item_amulet_holder": {}
+			},
+			id: "thaumcraft:thaumometer"
+		}],
+		ignore_damage: true,
+		ignore_nbt: 1b
+	}]
+}

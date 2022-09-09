@@ -1,0 +1,20 @@
+{
+	title: "Morbiously Radioactive",
+	x: 0.0d,
+	y: 0.0d,
+	text: [
+		"nice warm corium fluids"
+	],
+	tasks: [{
+		uid: "5b790557",
+		type: "item",
+		items: [{
+			id: "thermalexpansion:florb",
+			tag: {
+				Fluid: "corium"
+			},
+			Damage: 1s
+		}],
+		count: 20L
+	}]
+}

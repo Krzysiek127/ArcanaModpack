@@ -1,0 +1,12 @@
+{
+	title: "Steel Casing™",
+	x: -1.0d,
+	y: 0.0d,
+	tasks: [{
+		uid: "0996285e",
+		type: "item",
+		items: [{
+			item: "mekanism:basicblock 1 8"
+		}]
+	}]
+}

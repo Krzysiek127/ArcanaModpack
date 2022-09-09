@@ -1,0 +1,13 @@
+{
+	title: "Storage Drawers",
+	icon: {
+		id: "storagedrawers:basicdrawers",
+		tag: {
+			material: "oak"
+		},
+		Damage: 2s
+	},
+	always_invisible: false,
+	group: 2028154369,
+	default_quest_shape: ""
+}

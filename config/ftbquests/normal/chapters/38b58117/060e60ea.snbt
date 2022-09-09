@@ -1,0 +1,30 @@
+{
+	x: 7.5d,
+	y: -2.5d,
+	text: [
+		"Your friend in gathering wood planks until industrialisation"
+	],
+	dependencies: [
+		"3eae748b"
+	],
+	tasks: [{
+		uid: "9f165ebb",
+		type: "item",
+		items: [{
+			id: "horsepower:chopping_block",
+			tag: {
+				textureBlock: {
+					id: "minecraft:log",
+					Count: 1b,
+					Damage: 0s
+				}
+			}
+		}]
+	}],
+	rewards: [{
+		uid: "7fad86ce",
+		type: "item",
+		item: "minecraft:planks",
+		count: 16
+	}]
+}

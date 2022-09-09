@@ -1,0 +1,67 @@
+{
+	x: 2.0d,
+	y: 1.5d,
+	dependencies: [
+		"d7a606c5"
+	],
+	or_tasks: true,
+	tasks: [{
+		uid: "2b1749bd",
+		type: "item",
+		items: [{
+			ForgeCaps: {
+				"astralsorcery:cap_item_amulet_holder": {}
+			},
+			id: "refinedstorage:fluid_storage_disk"
+		}],
+		ignore_nbt: 1b
+	},
+	{
+		uid: "3bfc3d67",
+		type: "item",
+		items: [{
+			ForgeCaps: {
+				"astralsorcery:cap_item_amulet_holder": {}
+			},
+			id: "refinedstorage:fluid_storage_disk",
+			Damage: 1s
+		}],
+		ignore_nbt: 1b
+	},
+	{
+		uid: "82b141ec",
+		type: "item",
+		items: [{
+			ForgeCaps: {
+				"astralsorcery:cap_item_amulet_holder": {}
+			},
+			id: "refinedstorage:fluid_storage_disk",
+			Damage: 2s
+		}],
+		ignore_nbt: 1b
+	},
+	{
+		uid: "e157570c",
+		type: "item",
+		items: [{
+			ForgeCaps: {
+				"astralsorcery:cap_item_amulet_holder": {}
+			},
+			id: "refinedstorage:fluid_storage_disk",
+			Damage: 3s
+		}],
+		ignore_nbt: 1b
+	}],
+	rewards: [{
+		uid: "465bd98b",
+		type: "item",
+		item: "harvestcraft:cookiesandmilkitem",
+		count: 3,
+		random_bonus: 2
+	},
+	{
+		uid: "6f189d2f",
+		type: "xp",
+		xp: 75
+	}]
+}

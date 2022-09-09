@@ -1,0 +1,16 @@
+{
+	title: "It's free real estate!",
+	icon: "galacticraftplanets:mars 1 6",
+	x: 12.5d,
+	y: -3.0d,
+	dependencies: [
+		"b15391b2"
+	],
+	tasks: [{
+		uid: "870ef662",
+		type: "dimension",
+		title: "Land on the mars",
+		icon: "galacticraftplanets:mars 1 6",
+		dim: -29
+	}]
+}

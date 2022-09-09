@@ -1,0 +1,21 @@
+{
+	x: 4.5d,
+	y: 8.5d,
+	tasks: [{
+		uid: "eeff0a53",
+		type: "item",
+		items: [{
+			ForgeCaps: {
+				"astralsorcery:cap_item_amulet_holder": {}
+			},
+			id: "mekanism:energycube",
+			tag: {
+				tier: 3,
+				mekData: {
+					energyStored: 1.28E8d
+				}
+			}
+		}],
+		ignore_nbt: 1b
+	}]
+}

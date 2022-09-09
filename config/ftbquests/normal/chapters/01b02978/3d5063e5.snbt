@@ -1,0 +1,20 @@
+{
+	title: "Mad Max style",
+	x: 9.0d,
+	y: -4.5d,
+	dependencies: [
+		"c9383aba"
+	],
+	tasks: [{
+		uid: "5429a49e",
+		type: "item",
+		items: [{
+			ForgeCaps: {
+				"astralsorcery:cap_item_amulet_holder": {}
+			},
+			id: "galacticraftcore:buggy"
+		}],
+		ignore_damage: true,
+		ignore_nbt: 1b
+	}]
+}

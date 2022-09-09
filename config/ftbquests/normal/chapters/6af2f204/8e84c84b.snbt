@@ -1,0 +1,19 @@
+{
+	x: -2.5d,
+	y: 3.0d,
+	dependencies: [
+		"7af186c2"
+	],
+	tasks: [{
+		uid: "e0c12322",
+		type: "item",
+		items: [{
+			item: "opencomputers:screen3"
+		}]
+	}],
+	rewards: [{
+		uid: "ccf78e68",
+		type: "xp",
+		xp: 25
+	}]
+}

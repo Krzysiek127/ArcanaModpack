@@ -1,0 +1,27 @@
+{
+	title: "Spirit of the sun",
+	x: 12.0d,
+	y: 5.0d,
+	text: [
+		"The Spirit of The Sun is the third boss of the hostile paradise and is stronger than others"
+	],
+	dependencies: [
+		"6e996f72"
+	],
+	tasks: [{
+		uid: "a87bb3af",
+		type: "kill",
+		title: "Kill the fiery boss of aether",
+		icon: {
+			ForgeCaps: {
+				"astralsorcery:cap_item_amulet_holder": {}
+			},
+			id: "ftbquests:custom_icon",
+			tag: {
+				icon: "https://static.wikia.nocookie.net/minecraft_gamepedia/images/a/a5/Fire.gif/revision/latest?cb=20200206093504"
+			}
+		},
+		entity: "aether_legacy:sun_spirit",
+		value: 1L
+	}]
+}

@@ -1,0 +1,22 @@
+{
+	x: 3.0d,
+	y: 0.0d,
+	tasks: [{
+		uid: "9e5d4ab1",
+		type: "item",
+		items: [{
+			item: "thermaldynamics:duct_0 1 2"
+		}]
+	}],
+	rewards: [{
+		uid: "dab3cf39",
+		type: "xp",
+		xp: 25
+	},
+	{
+		uid: "e127b47b",
+		type: "item",
+		item: "harvestcraft:cookiesandmilkitem",
+		count: 3
+	}]
+}

@@ -1,0 +1,29 @@
+{
+	title: "Advent of Ascension",
+	icon: "aether_legacy:aether_grass",
+	x: 12.0d,
+	y: 3.5d,
+	text: [
+		"Wait, wrong mod."
+	],
+	dependencies: [
+		"f3e4ad3c"
+	],
+	tasks: [{
+		uid: "de870cbd",
+		type: "dimension",
+		title: "Visit the hostile paradise",
+		icon: {
+			ForgeCaps: {
+				"astralsorcery:cap_item_amulet_holder": {}
+			},
+			id: "aether_legacy:valkyrie_pickaxe"
+		},
+		dim: 4
+	}],
+	rewards: [{
+		uid: "e1b5b2b8",
+		type: "xp",
+		xp: 100
+	}]
+}

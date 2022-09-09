@@ -1,0 +1,19 @@
+{
+	x: -3.0d,
+	y: -2.5d,
+	dependencies: [
+		"21afe7e9"
+	],
+	tasks: [{
+		uid: "915ba887",
+		type: "item",
+		items: [{
+			item: "computercraft:computer 1 16384"
+		}]
+	}],
+	rewards: [{
+		uid: "b078fc48",
+		type: "xp",
+		xp: 10
+	}]
+}

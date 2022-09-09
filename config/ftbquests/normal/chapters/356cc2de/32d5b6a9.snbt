@@ -1,0 +1,15 @@
+{
+	x: 0.0d,
+	y: 0.0d,
+	tasks: [{
+		uid: "e79af809",
+		type: "item",
+		items: [{
+			ForgeCaps: {
+				"astralsorcery:cap_item_amulet_holder": {}
+			},
+			id: "thaumcraft:thaumonomicon"
+		}],
+		ignore_nbt: 1b
+	}]
+}

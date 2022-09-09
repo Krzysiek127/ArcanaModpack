@@ -1,0 +1,19 @@
+{
+	icon: "twilightforest:trophy 1 1",
+	x: 0.0d,
+	y: -4.0d,
+	text: [
+		"Stand to fight with 2nd boss - The Lich who can be found at the top of his castle"
+	],
+	dependencies: [
+		"952a451d"
+	],
+	tasks: [{
+		uid: "0872af97",
+		type: "kill",
+		title: "The Litch King",
+		icon: "twilightforest:trophy 1 1",
+		entity: "twilightforest:lich",
+		value: 1L
+	}]
+}

@@ -1,0 +1,20 @@
+{
+	x: 0.0d,
+	y: 0.0d,
+	dependencies: [
+		"75bd7955"
+	],
+	tasks: [{
+		uid: "e43baec4",
+		type: "item",
+		items: [{
+			item: "contenttweaker:gordonium"
+		}]
+	}],
+	rewards: [{
+		uid: "656f0df8",
+		type: "choice",
+		icon: "harvestcraft:hamandpineapplepizzaitem",
+		table: 1
+	}]
+}

@@ -1,0 +1,19 @@
+{
+	x: 6.5d,
+	y: -2.5d,
+	dependencies: [
+		"81ff9dff"
+	],
+	tasks: [{
+		uid: "acc14205",
+		type: "item",
+		items: [{
+			item: "immersiveengineering:wirecoil 1 1"
+		}]
+	}],
+	rewards: [{
+		uid: "0c2c1e7e",
+		type: "xp",
+		xp: 20
+	}]
+}

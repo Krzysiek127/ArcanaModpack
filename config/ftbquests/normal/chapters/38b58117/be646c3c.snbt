@@ -1,0 +1,27 @@
+{
+	title: "Forget about Freeman",
+	icon: "minecraft:end_stone",
+	x: 18.0d,
+	y: 3.5d,
+	text: [
+		"Gordon Freeman teleported to Xen? Well this dimension looks like it"
+	],
+	dependencies: [
+		"f3e4ad3c"
+	],
+	tasks: [{
+		uid: "97e5a667",
+		type: "dimension",
+		dim: 1
+	}],
+	rewards: [{
+		uid: "d54076fd",
+		type: "command",
+		title: "A surprise :)",
+		icon: "minecraft:end_stone",
+		team_reward: false,
+		auto: "enabled",
+		command: "/playsound minecraft:record.11 master @s",
+		player_command: true
+	}]
+}

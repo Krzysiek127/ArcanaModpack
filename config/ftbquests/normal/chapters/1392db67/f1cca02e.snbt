@@ -1,0 +1,20 @@
+{
+	x: 1.5d,
+	y: 0.0d,
+	dependencies: [
+		"90087e64"
+	],
+	tasks: [{
+		uid: "e09ea89b",
+		type: "item",
+		items: [{
+			item: "avaritia:resource 1 3"
+		}]
+	}],
+	rewards: [{
+		uid: "fd278a03",
+		type: "choice",
+		icon: "harvestcraft:sausageinbreaditem",
+		table: 1
+	}]
+}

@@ -1,0 +1,14 @@
+{
+	x: 2.0d,
+	y: 0.0d,
+	dependencies: [
+		"d7a606c5"
+	],
+	tasks: [{
+		uid: "5a9fcdb1",
+		type: "item",
+		items: [{
+			item: "refinedstorage:wireless_transmitter"
+		}]
+	}]
+}

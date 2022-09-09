@@ -1,0 +1,19 @@
+{
+	x: 0.0d,
+	y: -3.5d,
+	dependencies: [
+		"d7a606c5"
+	],
+	tasks: [{
+		uid: "1bfae96d",
+		type: "item",
+		items: [{
+			item: "refinedstorage:upgrade"
+		}]
+	}],
+	rewards: [{
+		uid: "75484566",
+		type: "xp",
+		xp: 32
+	}]
+}

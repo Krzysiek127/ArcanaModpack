@@ -1,0 +1,20 @@
+{
+	x: 8.0d,
+	y: 2.0d,
+	text: [
+		"Hamburger",
+		"Cheeseburger",
+		"Big Mac",
+		"Whopper"
+	],
+	dependencies: [
+		"37001295"
+	],
+	tasks: [{
+		uid: "ae2f61bd",
+		type: "item",
+		items: [{
+			item: "galacticraftcore:food 1 8"
+		}]
+	}]
+}

@@ -1,0 +1,27 @@
+{
+	x: 1.5d,
+	y: -2.0d,
+	tasks: [{
+		uid: "0748bfe9",
+		type: "item",
+		items: [{
+			ForgeCaps: {
+				"astralsorcery:cap_item_amulet_holder": {}
+			},
+			id: "avaritia:infinity_sword"
+		}],
+		ignore_damage: true,
+		ignore_nbt: 1b
+	}],
+	rewards: [{
+		uid: "7f21057e",
+		type: "item",
+		item: "harvestcraft:roastchickenitem",
+		random_bonus: 1
+	},
+	{
+		uid: "70d96d61",
+		type: "xp",
+		xp: 25
+	}]
+}

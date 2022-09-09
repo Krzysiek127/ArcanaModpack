@@ -1,0 +1,26 @@
+{
+	x: -5.0d,
+	y: 0.0d,
+	dependencies: [
+		"e5c321c2",
+		"30568837"
+	],
+	tasks: [{
+		uid: "9226ce89",
+		type: "item",
+		items: [{
+			item: "computronics:tape_reader"
+		}]
+	}],
+	rewards: [{
+		uid: "1901f5bc",
+		type: "item",
+		item: {
+			ForgeCaps: {
+				"astralsorcery:cap_item_amulet_holder": {}
+			},
+			id: "computronics:tape",
+			Damage: 3s
+		}
+	}]
+}

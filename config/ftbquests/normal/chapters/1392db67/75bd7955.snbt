@@ -1,0 +1,17 @@
+{
+	x: -1.5d,
+	y: 0.0d,
+	tasks: [{
+		uid: "135165ab",
+		type: "item",
+		items: [{
+			item: "contenttweaker:vaulterite_ingot"
+		}]
+	}],
+	rewards: [{
+		uid: "2af12d8b",
+		type: "choice",
+		icon: "harvestcraft:chickendinneritem",
+		table: 1
+	}]
+}

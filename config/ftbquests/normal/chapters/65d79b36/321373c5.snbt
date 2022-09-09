@@ -1,0 +1,14 @@
+{
+	x: 7.5d,
+	y: 0.0d,
+	dependencies: [
+		"e577b0f9"
+	],
+	tasks: [{
+		uid: "233016ce",
+		type: "item",
+		items: [{
+			item: "mekanism:reinforcedalloy"
+		}]
+	}]
+}

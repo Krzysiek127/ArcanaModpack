@@ -1,0 +1,16 @@
+{
+	x: -5.0d,
+	y: -2.5d,
+	tasks: [{
+		uid: "cf8a0e64",
+		type: "item",
+		items: [{
+			item: "computercraft:computer"
+		}]
+	}],
+	rewards: [{
+		uid: "10abc640",
+		type: "xp",
+		xp: 10
+	}]
+}

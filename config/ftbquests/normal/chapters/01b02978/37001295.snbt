@@ -1,0 +1,18 @@
+{
+	x: 8.0d,
+	y: 0.0d,
+	dependencies: [
+		"56a0544b"
+	],
+	tasks: [{
+		uid: "ea44ed26",
+		type: "item",
+		items: [{
+			ForgeCaps: {
+				"astralsorcery:cap_item_amulet_holder": {}
+			},
+			id: "galacticraftcore:rocket_t1"
+		}],
+		ignore_nbt: 1b
+	}]
+}

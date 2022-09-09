@@ -1,0 +1,30 @@
+{
+	title: "Nihilanth is a dragon?",
+	icon: "minecraft:skull 1 5",
+	x: 19.5d,
+	y: 3.5d,
+	text: [
+		"Badass Gordon Freeman defeated two bosses"
+	],
+	dependencies: [
+		"be646c3c"
+	],
+	tasks: [{
+		uid: "0f7359b9",
+		type: "kill",
+		title: "Kill an Ender Dragon",
+		icon: "minecraft:skull 1 5",
+		entity: "minecraft:ender_dragon",
+		value: 1L
+	}],
+	rewards: [{
+		uid: "db979422",
+		type: "command",
+		title: "Second surprise :)",
+		icon: "minecraft:golden_apple 1 1",
+		team_reward: false,
+		auto: "enabled",
+		command: "/playsound minecraft:entity.illusion_illager.prepare_blindness master @s",
+		player_command: true
+	}]
+}

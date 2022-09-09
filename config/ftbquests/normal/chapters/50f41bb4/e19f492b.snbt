@@ -1,0 +1,19 @@
+{
+	x: -7.0d,
+	y: -4.5d,
+	dependencies: [
+		"2dd363b7"
+	],
+	tasks: [{
+		uid: "5e47da32",
+		type: "item",
+		items: [{
+			item: "ironchest:iron_chest"
+		}]
+	}],
+	rewards: [{
+		uid: "e233bfd3",
+		type: "xp",
+		xp: 50
+	}]
+}

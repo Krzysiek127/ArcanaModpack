@@ -1,0 +1,19 @@
+{
+	x: -3.0d,
+	y: 6.5d,
+	dependencies: [
+		"313ca091"
+	],
+	tasks: [{
+		uid: "cb4ff4a5",
+		type: "item",
+		items: [{
+			item: "refinedstorage:crafter_manager"
+		}]
+	}],
+	rewards: [{
+		uid: "bf331ee2",
+		type: "xp",
+		xp: 10
+	}]
+}

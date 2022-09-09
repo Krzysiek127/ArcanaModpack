@@ -1,0 +1,20 @@
+{
+	x: 2.0d,
+	y: -0.5d,
+	dependencies: [
+		"b948d0d3"
+	],
+	tasks: [{
+		uid: "dd7cddef",
+		type: "item",
+		items: [{
+			ForgeCaps: {
+				"astralsorcery:cap_item_amulet_holder": {}
+			},
+			id: "notreepunching:knife/flint"
+		}],
+		ignore_damage: true,
+		ignore_nbt: 1b,
+		only_from_crafting: true
+	}]
+}

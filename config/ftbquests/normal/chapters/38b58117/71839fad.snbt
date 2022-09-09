@@ -1,0 +1,29 @@
+{
+	x: 17.964285714285722d,
+	y: -0.5d,
+	shape: "hexagon",
+	text: [
+		"Your key to understand the world"
+	],
+	dependencies: [
+		"528845c0"
+	],
+	size: 1.4d,
+	tasks: [{
+		uid: "318fbec2",
+		type: "item",
+		items: [{
+			ForgeCaps: {
+				"astralsorcery:cap_item_amulet_holder": {}
+			},
+			id: "akashictome:tome"
+		}],
+		ignore_damage: true,
+		ignore_nbt: 1b
+	}],
+	rewards: [{
+		uid: "6bddd803",
+		type: "xp_levels",
+		xp_levels: 5
+	}]
+}
